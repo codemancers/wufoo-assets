@@ -1,6 +1,3 @@
-#logo a {
-	background-image:url('../images/wflogo.png'); 
-	min-height:0;
-	height:40px;
-	display: none;
+body {
+background: red;
 }
