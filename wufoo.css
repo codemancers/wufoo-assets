@@ -4,7 +4,7 @@ body {
 
 
 
-#input {
+.field {
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
@@ -14,7 +14,7 @@ body {
 }
 
 
-#input:focus { 
+.field:focus { 
 	outline:none; 
 }
 
