@@ -1,4 +1,3 @@
-
 #input {
   font-size:18px;
   padding:10px 10px 10px 5px;
@@ -6,19 +5,18 @@
   border:none;
   border-bottom:1px solid #757575;
   background: none;
-  min-width: 400px;
 }
 
 
-#input:focus {
-	outline:none;
-}
-
-.location-map {
-  padding-top: 0;
+#input:focus { 
+	outline:none; 
 }
 
 
+.wufoo {
+    font-family: "Lucida Grande", "Lucida Sans Unicode",  Tahoma,  sans-serif;
+    letter-spacing: .01em;
+}
 .wufoo li {
     width: 64%;
     padding-top: 20px;
@@ -214,6 +212,7 @@ form li div label .currently {
     display: none;
 }
 input.text, input.search, input.file, textarea.textarea, select.select {
+    font-family: "Lucida Grande",  Tahoma,  Arial,  sans-serif;
     font-size: 100%;
     color: #333;
     margin: 0;
@@ -224,7 +223,7 @@ input.text, input.search, textarea.textarea {
     border-left: 1px solid #c3c3c3;
     border-right: 1px solid #c3c3c3;
     border-bottom: 1px solid #ddd;
-    background: transparent none repeat scroll 0% 0%;
+    background: #fff url(../images/fieldbg.gif) repeat-x top;
 }
 input.nospin::-webkit-inner-spin-button, input.nospin::-webkit-outer-spin-button {
     -webkit-appearance: none;
