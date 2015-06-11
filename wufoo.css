@@ -1,3 +1,57 @@
-body {
-background: red;
+
+#input {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  border:none;
+  border-bottom:1px solid #757575;
+  background: none;
+  min-width: 400px;
+}
+#input:focus {
+	outline:none;
+}
+
+.location-map {
+  padding-top: 0;
+}
+ul {
+  list-style-type: none;
+}
+input.text, input.search, textarea.textarea {
+  border: 1px solid #757575;
+  background: transparent none repeat scroll 0% 0%;
+  padding-top: 10px;
+}
+.textfield {
+  width: 100%;
+}
+.req {
+  color: red;
+}
+.describe-box {
+  padding-top: 10px;
+}
+.time-line {
+  padding: 40px 0px 0px 40px;
+}
+.date-label {
+  position: absolute;
+  font-size: 0.75em;
+  padding: 28px 0px 0px 6px;
+}
+.date-text {
+  text-align: center;
+  font-size:.75em;
+}
+
+.error {
+
+  input.text, input.search, textarea.textarea {
+    border: 1px solid red;
+  }
+  .desc, .error {
+    color: red;
+  }
+
 }
