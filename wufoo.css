@@ -4,7 +4,7 @@ body {
 
 
 
-.field {
+.wufoo input.text {
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
@@ -14,7 +14,7 @@ body {
 }
 
 
-.field:focus { 
+.wufoo input.text:focus { 
 	outline:none; 
 }
 
