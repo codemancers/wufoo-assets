@@ -1,0 +1,135 @@
+.embed #container, form.wufoo {
+  margin: 0;
+  padding: 0;
+}
+
+.info[class] {
+  display: none;
+}
+
+.wufoo {
+  label.desc, legend.desc {
+    font-size: 120%;
+    line-height: 1;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+  }
+
+  input.text, textarea.textarea {
+    border: none;
+    display: block;
+    font-size: 16px;
+    background: none;
+    padding: 0 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: #369;
+    }
+  }
+
+  input.text {
+    height: 40px;
+    line-height: normal;
+  }
+
+  textarea.textarea {
+    height: 100px;
+    padding: 10px;
+  }
+
+  span.symbol {
+    line-height: 40px;
+  }
+}
+
+form li {
+  padding: 0 0 30px 0;
+
+  &.buttons {
+    padding: 0;
+    text-align: center;
+
+    input {
+      font-size: 16px;
+      margin-right: 0;
+    }
+  }
+
+  &.error {
+    background: none !important;
+  }
+}
+
+#errorMsg b {
+    padding: 0;
+    background: none !important;
+}
+
+#errorLi {
+    border-radius: 0px;
+}
+
+input.btTxt {
+  color: #369;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 10px 40px;
+  border: solid 3px #369;
+  text-transform: uppercase;
+
+  &:hover, &:focus {
+    color: #fff;
+    outline: none;
+    background: #369;
+    text-decoration: none;
+  }
+}
+
+input.btTxt {
+  color: #369;
+  cursor: pointer;
+  background: none;
+  font-weight: 400;
+  padding: 10px 40px;
+  border: solid 3px #369;
+  text-transform: uppercase;
+
+  &:hover, &:focus {
+    color: #fff;
+    outline: none;
+    background: #369;
+    text-decoration: none;
+  }
+}
+
+.describe-project {
+  position: relative;
+  padding-bottom: 100px;
+
+  &:after {
+    left:0;
+    z-index: 1;
+    color: #444;
+    width: 100%;
+    height: 40px;
+    bottom: 10px;
+    font-size: 20px;
+    position: absolute;
+    visibility: visible;
+    content: "Time Line?";
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 736px) {
+  form li {
+    &.rightHalf, &.leftHalf {
+      float: none;
+      width: auto !important;
+    }
+  }
+}
