@@ -9,10 +9,9 @@
 
 .wufoo {
   label.desc, legend.desc {
-    font-size: 120%;
     line-height: 1;
+    font-size: 120%;
     padding: 0 0 10px 0;
-    text-transform: uppercase;
   }
 
   input.text, textarea.textarea {
@@ -23,6 +22,8 @@
     padding: 0 10px;
     background: #fff;
     border: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 
     &:focus {
@@ -72,33 +73,17 @@ form li {
     image-rendering:   -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
   }
 }
 
 #errorMsg b {
-    padding: 0;
-    background: none !important;
+  padding: 0;
+  background: none !important;
 }
 
 #errorLi {
-    border-radius: 0px;
-}
-
-input.btTxt {
-  color: #369;
-  cursor: pointer;
-  font-weight: 400;
-  padding: 10px 40px;
-  border: solid 3px #369;
-  text-transform: uppercase;
-
-  &:hover, &:focus {
-    color: #fff;
-    outline: none;
-    background: #369;
-    text-decoration: none;
-  }
+  border-radius: 0px;
 }
 
 input.btTxt {
@@ -133,7 +118,6 @@ input.btTxt {
     position: absolute;
     visibility: visible;
     content: "Time Line?";
-    text-transform: uppercase;
   }
 }
 
