@@ -136,13 +136,14 @@ form li {
 
 // Hide success message button and wufoo logo container
 .embed .confirm h2.freeHeading {
+  margin: 0 20px;
   font-family: 'Karla', sans-serif;
 }
 
 .embed .confirm a.start-cta,
 .embed .confirm .logo-container,
 .embed .confirm .create-message {
-  visibility: hidden;
+  display: none;
 }
 //  ends Hide success message....
 
